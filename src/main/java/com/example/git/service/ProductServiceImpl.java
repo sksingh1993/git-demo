@@ -20,10 +20,12 @@ public class ProductServiceImpl implements ProductService{
         Product product1 = new Product();
         Product product2 = new Product();
         Product product3 = new Product();
+        Product product6 = new Product();
     }
     @Override
     public Product deleteProduct(Long id){
-        return new Product();
+        Product product = new Product();
+        return product;
 
     }
 }
