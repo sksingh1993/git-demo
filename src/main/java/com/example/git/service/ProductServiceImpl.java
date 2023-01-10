@@ -17,7 +17,7 @@ public class ProductServiceImpl implements ProductService{
         Product product4 = new Product();
         Product product5 = new Product();
 
-        Product product1 = new Product();
+        Product prod1 = new Product();
         Product product2 = new Product();
         Product product3 = new Product();
         Product product6 = new Product();
