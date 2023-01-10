@@ -32,4 +32,11 @@ public class ProductServiceImpl implements ProductService{
         return product;
 
     }
+    @Override
+    public double getPrice(Long id){
+        return 21.0;
+
+    }
+    
+    
 }
