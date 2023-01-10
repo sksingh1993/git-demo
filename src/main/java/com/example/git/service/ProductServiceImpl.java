@@ -22,7 +22,7 @@ public class ProductServiceImpl implements ProductService{
         Product product3 = new Product();
         Product product6 = new Product();
         Product prod7 = new Product();
-<<<<<<< HEAD
+
         Product product8 = new Product();
         Product product9 = new Product();
         Product product10 = new Product();
@@ -42,4 +42,11 @@ public class ProductServiceImpl implements ProductService{
     public Product updateProduct(Product product) {
         return null;
     }
+
+    @Override
+    public double getPrice(Long id){
+        return 21.0;
+
+    }
+
 }
