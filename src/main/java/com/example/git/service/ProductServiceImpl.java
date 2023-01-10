@@ -22,9 +22,14 @@ public class ProductServiceImpl implements ProductService{
         Product product3 = new Product();
         Product product6 = new Product();
         Product prod7 = new Product();
+<<<<<<< HEAD
         Product product8 = new Product();
         Product product9 = new Product();
         Product product10 = new Product();
+
+        Product prod11 = new Product();
+        Product prod12 = new Product();
+        Product prod13 = new Product();
     }
     @Override
     public Product deleteProduct(Long id){
