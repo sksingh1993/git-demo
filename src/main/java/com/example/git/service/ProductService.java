@@ -10,5 +10,6 @@ public interface ProductService {
     Product updateProduct(Product product);
 
     double getPrice(Long id);
+    String getDescription(Long id);
 
 }

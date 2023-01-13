@@ -49,4 +49,9 @@ public class ProductServiceImpl implements ProductService{
 
     }
 
+    @Override
+    public String getDescription(Long id) {
+        return null;
+    }
+
 }
